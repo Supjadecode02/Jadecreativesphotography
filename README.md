@@ -1,1 +1,1 @@
-https://jadecreativeswebsite.netlify.app/
+https://jadecreativesportfolio.netlify.app/
