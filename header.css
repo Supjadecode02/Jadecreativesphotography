@@ -1,0 +1,169 @@
+  #hire-me,
+  #artisan {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 3rem 0;
+  }
+
+  #hire-me .row,
+  #artisan .row {
+      display: flex;
+      align-items: center;
+  }
+
+
+  #hire-me .hero-image-content {
+      padding: 2rem;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+  }
+
+  #hire-me .hero-image-content h2 {
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      font-size: 2.5rem;
+  }
+
+  #hire-me .hero-image-content img {
+      margin: 1rem 0;
+      align-self: center; 
+      max-width: 100%;
+      height: auto;
+  }
+
+  #hire-me .hero-image-content .btn {
+      margin-top: 1rem;
+  }
+
+  #hire-me .hero-image-image {
+      background-size: cover;
+      background-position: center;
+      min-height: 300px; 
+  }
+
+
+  #artisan .col-md-6 img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+  }
+
+  #artisan .col {
+      padding-left: 2rem;
+      text-align: left;
+  }
+
+  #artisan h2 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+  }
+
+  #artisan p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+  }
+
+  #artisan .btn {
+      display: inline-block;
+      margin-top: 1rem;
+  }
+
+
+  footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 2rem 0;
+    }
+    
+    footer .navbar-brand-img {
+      max-width: 150px;
+      height: auto;
+    }
+    
+    footer p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    
+    
+    footer .list-inline {
+      margin-top: 1rem;
+      padding: 0;
+    }
+    
+    footer .list-inline-item {
+      display: inline-block;
+      margin: 0 0.5rem;
+    }
+    
+    footer .list-inline-item a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #495057;
+      color: #ffffff;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      text-decoration: none;
+    }
+    
+    footer .list-inline-item a:hover {
+      background-color: #007bff; 
+      color: #ffffff;
+    }
+    
+
+    footer .list-inline-item a.facebook:hover {
+      background-color: #3b5998; 
+    }
+    
+    footer .list-inline-item a.twitter:hover {
+      background-color: #1da1f2; 
+    }
+    
+    footer .list-inline-item a.instagram:hover {
+      background-color: #e4405f; 
+    }
+    
+    footer .list-inline-item a.linkedin:hover {
+      background-color: #0077b5; 
+    }
+    
+    footer .list-inline-item a.youtube:hover {
+      background-color: #ff0000; 
+    }
+    
+    footer .list-inline-item a.tiktok:hover {
+      background-color: #000000;
+    }
+    
+    footer .list-inline-item a.pinterest:hover {
+      background-color: #bd081c; 
+    }
+    
+    @media (max-width: 768px) {
+      footer .navbar-brand-img {
+        max-width: 120px;
+      }
+    
+      footer p {
+        font-size: 0.9rem;
+      }
+    
+      footer .list-inline-item a {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+      }
+    }
+    

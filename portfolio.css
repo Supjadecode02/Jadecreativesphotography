@@ -1,0 +1,58 @@
+/* Custom styles for the portfolio */
+.portfolio-item img, .portfolio-item video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-btn.active {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .portfolio-btn {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .portfolio-btn:hover {
+    background-color: #2c3e50;
+  }
+  
+  .portfolio-section {
+    display: none;
+  }
+  
+  .portfolio-section.active {
+    display: block;
+  }
+  
+  .portfolio h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #34495e;
+    margin-top: 15px;
+  }
+  
+  .portfolio-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
